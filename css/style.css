@@ -4,15 +4,14 @@
   src: url("../css/fonts/SF-Pro-Text-Medium.otf");
 }
 
+html {
+  font-family: "SF Pro Text Medium", Helvetica, Sans-Serif;
+}
+
 body {
   margin: 0;
   padding: 0;
   background: #262626;
-}
-
-h3 {
-  font-family: "SF Pro Text Medium";
-  font-size: 17px;
 }
 
 .screen {
