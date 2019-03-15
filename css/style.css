@@ -1,11 +1,12 @@
 @font-face {
-  font-family: "SF Pro Text Medium";
+  font-family: "SFRegular";
+  font-style: normal;
   font-weight: 500;
-  src: url("../css/fonts/SF-Pro-Text-Medium.otf");
+  src: url("../css/fonts/SFRegular.ttf"), local("Helvetica")
 }
 
-html {
-  font-family: "SF Pro Text Medium", Helvetica, Sans-Serif;
+h3 {
+  font-family: "SFRegular";
 }
 
 body {
