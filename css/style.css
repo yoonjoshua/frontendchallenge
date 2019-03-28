@@ -36,7 +36,8 @@ nav {
   float: left;
   width: 20%;
   vertical-align: middle;
-  margin-left: 30px;
+  margin-left: 12px;
+  margin-top: 12px;
 }
 
 h1 {
@@ -46,10 +47,18 @@ h1 {
   color: #000000;
   vertical-align: middle;
   text-align: center;
-  margin-left: -40px;
-  margin-top: -13px;
-  font-size: 17;
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 1.25em;
+  margin-top: 10px;
+  margin-left: -30px;
+  }
+
+.fa-user-circle {
+  display: inline-block;
+  vertical-align: middle;
+  color: #007AFF;
+  margin-left: 18px;
+  margin-top: 12px;
 }
 
 .navcontainer {
@@ -62,14 +71,6 @@ h1 {
 
 .navbar {
   position: absolute;
-}
-
-h1 {
-  font-weight: 500;
-  font-size: 1.25em;
-  display: inline-block;
-  padding-left: 105px;
-  padding-top: 6px;
 }
 
 .profile {
@@ -94,12 +95,17 @@ h1 {
   border-bottom: 1px solid #C8C7CC;
 }
 
+.fa-chevron-right {
+  margin-top: 22px;
+  color: #8A8A8F;
+}
+
 .boxstop1 {
   background-color: #5AC8FA;
   width: 45px;
   height: 45px;
   margin-top: 6px;
-  margin-left: 18px;
+  margin-left: 12px;
   border-radius: 5px;
 }
 
@@ -108,7 +114,7 @@ h1 {
   width: 45px;
   height: 45px;
   margin-top: 6px;
-  margin-left: 18px;
+  margin-left: 12px;
   border-radius: 5px;
 }
 
@@ -117,7 +123,7 @@ h1 {
   width: 45px;
   height: 45px;
   margin-top: 6px;
-  margin-left: 18px;
+  margin-left: 12px;
   border-radius: 5px;
 }
 
@@ -126,7 +132,7 @@ h1 {
   width: 45px;
   height: 45px;
   margin-top: 6px;
-  margin-left: 18px;
+  margin-left: 12px;
   border-radius: 5px;
 }
 
@@ -135,7 +141,7 @@ h1 {
   width: 45px;
   height: 45px;
   margin-top: 6px;
-  margin-left: 18px;
+  margin-left: 12px;
   border-radius: 5px;
 }
 
@@ -144,7 +150,7 @@ h1 {
   width: 45px;
   height: 45px;
   margin-top: 6px;
-  margin-left: 18px;
+  margin-left: 12px;
   border-radius: 5px;
 }
 
@@ -153,7 +159,7 @@ h1 {
   width: 45px;
   height: 45px;
   margin-top: 6px;
-  margin-left: 18px;
+  margin-left: 12px;
   border-radius: 5px;
 }
 
@@ -162,7 +168,7 @@ h1 {
   width: 45px;
   height: 45px;
   margin-top: 6px;
-  margin-left: 18px;
+  margin-left: 12px;
   border-radius: 5px;
 }
 
@@ -171,14 +177,15 @@ h1 {
   width: 45px;
   height: 45px;
   margin-top: 6px;
-  margin-left: 18px;
+  margin-left: 12px;
   border-radius: 5px;
 }
 
 .box2 {
-  width: 180px;
+  width: 175px;
   height: 50px;
   margin-top: 6px;
+  margin-left: -3px;
 }
 
 .box3 {
@@ -186,6 +193,12 @@ h1 {
   text-align: right;
   height: 50px;
   margin-top: 6px;
+  margin-left: -10px;
+}
+
+.box4 {
+  width: 50px;
+
 }
 
 .boxstop1 h3 {
@@ -290,4 +303,40 @@ h1 {
   height: 64px;
   margin: 0 auto;
   background-color: #F8F8F8;
+}
+
+.bottombox1 {
+  display: flex;
+  width: 375px;
+}
+
+.fa-clock {
+  margin-top: 10px;
+  margin-left: 80px;
+  color: #8A8A8F;
+}
+
+.fa-star {
+  margin-top: 10px;
+  margin-left: 150px;
+  color: #8A8A8F;
+}
+
+.bottombox2 {
+  display: flex;
+  width: 375px;
+}
+
+.bottomnavtext1 {
+  margin-left: 72px;
+  margin-top: 2px;
+  font-size: .75em;
+  color: #8A8A8F;
+}
+
+.bottomnavtext2 {
+  margin-left: 137px;
+  margin-top: 2px;
+  font-size: .75em;
+  color: #8A8A8F;
 }
